@@ -514,16 +514,23 @@ nav ul li a:hover {
 }
 
 /* WhatsApp Button */
-.whatsapp-btn {
-  display: inline-block;
+.whatsapp-chat {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #25D366;
   color: white;
-  padding: 12px 22px;
   border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
 }
+
 
 .whatsapp-btn:hover {
   background-color: #20b858;
