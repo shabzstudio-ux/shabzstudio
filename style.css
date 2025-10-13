@@ -396,7 +396,7 @@ nav ul li a:hover {
   }
 
   nav ul {
-    display:contents;         /* Hide nav links by default on mobile */
+    display:none;         /* Hide nav links by default on mobile */
     flex-direction: column;
     width: 100%;
     background-color: #111;
