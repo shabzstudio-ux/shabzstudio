@@ -83,7 +83,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .hero, .banner {
     background-size: contain; /* instead of cover */
-    background-position: center top;
+    background-position: center;
     height: 70vh; /* reduce height for smaller screens */
   }
 
