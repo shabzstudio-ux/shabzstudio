@@ -80,6 +80,23 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   position: relative;
 }
+@media (max-width: 768px) {
+  .hero, .banner {
+    background-size: contain; /* instead of cover */
+    background-position: center top;
+    height: 70vh; /* reduce height for smaller screens */
+  }
+
+  .hero h1, .banner h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .hero p, .banner p {
+    font-size: 1rem;
+  }
+}
+
 
 .hero::before {
   content: "";
@@ -379,7 +396,7 @@ nav ul li a:hover {
   }
 
   nav ul {
-    display: none;         /* Hide nav links by default on mobile */
+    display:contents;         /* Hide nav links by default on mobile */
     flex-direction: column;
     width: 100%;
     background-color: #111;
