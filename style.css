@@ -108,6 +108,24 @@ nav ul li a:hover {
   color: #ccc;
   margin-bottom: 40px;
 }
+/* Mobile Responsive Fix for Hero Banner */
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh; /* reduce banner height for smaller screens */
+    background-size: contain !important; /* prevents zooming/cropping */
+    background-position: top center !important; /* keeps image visible */
+  }
+
+  .hero h1 {
+    font-size: 1.8rem; /* smaller heading */
+  }
+
+  .hero p {
+    font-size: 1rem; /* smaller subtitle */
+    padding: 0 20px; /* avoid text touching edges */
+  }
+}
+
 
 .btn {
   text-decoration: none;
